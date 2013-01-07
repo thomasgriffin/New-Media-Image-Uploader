@@ -109,7 +109,6 @@ class TGM_New_Media_Plugin {
             echo '<p><strong>' . __( 'Please note that none of this will save when you update the page. This is just for demonstration purposes only!', 'tgm-nmp' ) . '</strong></p>';
             echo '<p><a href="#" class="tgm-open-media button button-primary" title="' . esc_attr__( 'Click Here to Open the Media Manager', 'tgm-nmp' ) . '">' . __( 'Click Here to Open the Media Manager', 'tgm-nmp' ) . '</a></p>';
             echo '<p><label for="tgm-new-media-image">' . __( 'Our Image Goes Here!', 'tgm-nmp' ) . '</label> <input type="text" id="tgm-new-media-image" size="70" value="" /></p>';
-            wp_editor( '', 'soliloquy-editor' );
         echo '</div>';
 
     }
