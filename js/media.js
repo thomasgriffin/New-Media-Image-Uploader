@@ -9,7 +9,7 @@
 jQuery(document).ready(function($){
     // Prepare the variable that holds our custom media manager.
     var tgm_media_frame;
-
+    
     // Bind to our click event in order to open up the new media experience.
     $(document.body).on('click.tgmOpenMediaManager', '.tgm-open-media', function(e){
         // Prevent the default action from occuring.
