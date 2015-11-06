@@ -60,7 +60,7 @@ class TGM_New_Media_Plugin {
      *
      * @since 1.0.0
      *
-     * @return null Return early if not on a page add/edit screen
+     * @return null Return early if not on a page add/edit screen.
      */
     public function assets() {
 
@@ -100,7 +100,7 @@ class TGM_New_Media_Plugin {
      *
      * @since 1.0.0
      *
-     * @param object $post Current post object data
+     * @param object $post Current post object data.
      */
     public function metabox( $post ) {
 
